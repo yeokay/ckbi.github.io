@@ -202,16 +202,16 @@ if(isset($_POST['but_logout'])){
 					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="put cards here" style="color:#ffffff94"></textarea>					
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
-                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1ccn.php">CCN $1 USD</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd10ccn.php">CCN $10 USD</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur1ccn.php">CCN €1 EUR</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur10ccn.php">CCN €10 EUR</option>
-                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1cvv.php">CVV $1 USD</option>
+                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1ccn.php">𝒄𝒄𝒏 𝟏$ (usd)</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd10ccn.php">𝒄𝒄𝒏 𝟏𝟎$ (usd)</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur1ccn.php">𝒄𝒄𝒏 𝟏€</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur10ccn.php">𝒄𝒄𝒏 𝟏𝟎€</option>
+                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
 </select>
 	<br>										
-					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>START</button>
-					<button class="btn btn-stop  btn-bg-gradient-x text-white" style="width: 45%; float: right;" disabled><i class="fa fa-stop" style="margin-right: 3px;"></i>STOP</button>
-					<span class="badge badge-dark" id="datetime">01/02/2022</span> •  <span class="badge badge-dark" id="timenow">12:00:00 AM</span>
+					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>start here</button>
+					<button class="btn btn-stop  btn-bg-gradient-x text-white" style="width: 45%; float: right;" disabled><i class="fa fa-stop" style="margin-right: 3px;"></i>stop</button>
+					<span class="badge badge-dark" id="datetime">01/02/2022</span>   •   <span class="badge badge-dark" id="timenow">12:00:00 AM</span>
 
 
 				</div>
@@ -221,12 +221,12 @@ if(isset($_POST['but_logout'])){
 <div class="col-md-4">
   <div class="card mb-2" style="background-color:transparent;">
   	<div class="card-body statusbar" >   
-<h5 >CHARGED<span class="badge badge-success float-right charge">0</span></h5><hr class="hr-statusbar">
-<h5>LIVE CVV<span class="badge badge-success float-right cvvs">0</span></h5><hr class="hr-statusbar">
-<h5>LIVE CCN<span class="badge badge-success float-right aprovadas">0</span></h5><hr class="hr-statusbar">
-<h5>DEAD<span class="badge badge-danger float-right reprovadas">0</span></h5><hr class="hr-statusbar">
-<h5>TOTAL<span class="badge badge-primary float-right carregadas">0</span></h5><hr class="hr-statusbar">
-<h5>LIMIT<span class="badge badge-primary float-right">20000</span></h5><hr class="hr-statusbar">
+<h5 >𝒓𝒊𝒄𝒉 𝒄𝒂𝒓𝒅𝒔<span class="badge badge-success float-right charge">0</span></h5><hr class="hr-statusbar">
+<h5>𝒄𝒄𝒗<span class="badge badge-success float-right cvvs">0</span></h5><hr class="hr-statusbar">
+<h5>𝒂𝒔𝒔 𝒄𝒄𝒏<span class="badge badge-success float-right aprovadas">0</span></h5><hr class="hr-statusbar">
+<h5>𝒔𝒂𝒅 𝒅𝒆𝒅<span class="badge badge-danger float-right reprovadas">0</span></h5><hr class="hr-statusbar">
+<h5>𝒕𝒐𝒕𝒂𝒍<span class="badge badge-primary float-right carregadas">0</span></h5><hr class="hr-statusbar">
+<h5>𝒄𝒂𝒓𝒅 𝒍𝒊𝒎𝒊𝒕<span class="badge badge-primary float-right">20k</span></h5><hr class="hr-statusbar">
       
                                     <label class="form-control-label" style="margin-left: 10px; margin-bottom: 20px" for="inputcvv"></label>
                   </div> 
