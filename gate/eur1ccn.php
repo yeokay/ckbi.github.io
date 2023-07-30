@@ -139,7 +139,7 @@ break;
 //=================== [ RESPONSES ] ===================//
 
 if(strpos($result2, '"seller_message": "Payment complete."' )) {
-    echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.' CCN Charged ✅ Checked by @NightChecker <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
+    echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.'𝔠𝔥𝔞𝔯𝔤𝔢𝔡 𝔟𝔶 @balenottere <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
 }
 elseif(strpos($result2,'"cvc_check": "pass"')){
     echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: CVV LIVE</span><br>';
@@ -147,17 +147,17 @@ elseif(strpos($result2,'"cvc_check": "pass"')){
 
 
 elseif(strpos($result1, "generic_decline")) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: GENERIC DECLINED</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result:sad decline</span><br>';
     }
 elseif(strpos($result2, "generic_decline" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: GENERIC DECLINED</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sad decline</span><br>';
 }
 elseif(strpos($result2, "insufficient_funds" )) {
-    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: INSUFFICIENT FUNDS</span><br>';
+    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: poor guy with no fund</span><br>';
 }
 
 elseif(strpos($result2, "fraudulent" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: FRAUDULENT</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: they think im a scammer</span><br>';
 }
 elseif(strpos($resul3, "do_not_honor" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: DO NOT HONOR</span><br>';
