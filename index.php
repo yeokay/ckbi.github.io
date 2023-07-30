@@ -199,7 +199,7 @@ if(isset($_POST['but_logout'])){
 					style="width:140px;"
 					></a>
 					</h4>
-					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="put cards here" style="color:#ffffff94"></textarea>					
+					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="cards here XXXXXXXXXXXXXX|XX|XXXX " style="color:#ffffff94"></textarea>					
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1ccn.php">𝒄𝒄𝒏 𝟏$ (usd)</option>
@@ -209,8 +209,8 @@ if(isset($_POST['but_logout'])){
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
 </select>
 	<br>										
-					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>start here</button>
-					<button class="btn btn-stop  btn-bg-gradient-x text-white" style="width: 45%; float: right;" disabled><i class="fa fa-stop" style="margin-right: 3px;"></i>stop</button>
+					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>𝒄𝒉𝒌 </button>
+					<button class="btn btn-stop  btn-bg-gradient-x text-white" style="width: 45%; float: right;" disabled><i class="fa fa-stop" style="margin-right: 3px;"></i>𝒔𝒕𝒐𝒑</button>
 					<span class="badge badge-dark" id="datetime">01/02/2022</span>   •   <span class="badge badge-dark" id="timenow">12:00:00 AM</span>
 
 
@@ -240,7 +240,7 @@ if(isset($_POST['but_logout'])){
 						<button type="show" class="btn btn-primary btn-sm show-charge"><i class="fa fa-eye-slash"></i></button>
 					<button class="btn btn-success btn-sm btn-copy1"><i class="fa fa-copy"></i></button>					
 					</div>
-					<h4 class="card-title mb-1"><i class="fa fa-check-circle text-success"></i> CHARGED</h4>					
+					<h4 class="card-title mb-1"><i class="fa fa-check-circle text-success"></i> 𝒓𝒊𝒄𝒉 𝒄𝒂𝒓𝒅𝒔</h4>					
 			<div id='lista_charge'></div>
 				</div>				
 			</div>
@@ -252,7 +252,7 @@ if(isset($_POST['but_logout'])){
 						<button type="show" class="btn btn-primary btn-sm show-lives"><i class="fa fa-eye-slash"></i></button>
 					<button class="btn btn-success btn-sm btn-copy"><i class="fa fa-copy"></i></button>					
 					</div>
-					<h4 class="card-title mb-1"><i class="fa fa-check text-success"></i> LIVE CVV</h4>					
+					<h4 class="card-title mb-1"><i class="fa fa-check text-success"></i> 𝒄𝒄𝒗</h4>					
 			<div id='lista_cvvs'></div>
 				</div>				
 			</div>
@@ -264,7 +264,7 @@ if(isset($_POST['but_logout'])){
 						<button type="show" class="btn btn-primary btn-sm show-lives"><i class="fa fa-eye-slash"></i></button>
 					<button class="btn btn-success btn-sm btn-copy"><i class="fa fa-copy"></i></button>					
 					</div>
-					<h4 class="card-title mb-1"><i class="fa fa-check text-success"></i> LIVE CCN</h4>					
+					<h4 class="card-title mb-1"><i class="fa fa-check text-success"></i> 𝒂𝒔𝒔 𝒄𝒄𝒏</h4>					
 			<div id='lista_aprovadas'></div>
 				</div>				
 			</div>
@@ -276,7 +276,7 @@ if(isset($_POST['but_logout'])){
 						<button type='hidden' class="btn btn-primary btn-sm show-dies"><i class="fa fa-eye"></i></button>
 					<button class="btn btn-danger btn-sm btn-trash"><i class="fa fa-trash"></i></button>					
 					</div>
-					<h4 class="card-title mb-1"><i class="fa fa-times text-danger"></i> DEAD</h4>		
+					<h4 class="card-title mb-1"><i class="fa fa-times text-danger"></i> 𝒔𝒂𝒅 𝒅𝒆𝒅</h4>		
 						<div style='display: none;' id='lista_reprovadas' class="lista_reprovadass"><br></div>
 				</div>				
 			</div>
