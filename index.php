@@ -165,7 +165,7 @@ if(isset($_POST['but_logout'])){
 		  
 		  option { 
     /* Whatever color  you want */
-    background-color: #112132;
+    background-color: #ffffff;
 	color: white;
 	}
 	#myButton {
