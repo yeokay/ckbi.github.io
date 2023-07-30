@@ -19,7 +19,7 @@ if(isset($_POST['but_logout'])){
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">    
-    <title>Night Checker</title>
+    <title>undefy</title>
 	<link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -395,7 +395,7 @@ if(!lista){
 	return false;
 }
 
-Swal.fire({title: 'Your cards are being Checked', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+Swal.fire({title: 'cards being checked :)', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 
 var line = array.filter(function(value){
 if(value.trim() !== ""){
@@ -464,7 +464,7 @@ var callBack = $.ajax({
 		$('.testadas').text(testadas);
 		
 		if(testadas == total){
-			Swal.fire({title: 'ALL CARDS HAS BEEN CHECKED', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+			Swal.fire({title: 'cards checked', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 			$('.btn-play').attr('disabled', false);
 			$('.btn-stop').attr('disabled', true);
 		}
