@@ -194,7 +194,7 @@ if(isset($_POST['but_logout'])){
 		<div class="col-md-8">
 			<div class="card" style="background-color:transparent;">
 				<div class="card-body text-center">
-					<h4 class="mb-2"><strong><a href="https://t.me/balenottere">welcome</a></strong></h4>
+					<h4 class="mb-2"><strong><a href="https://t.me/balenottere">𝐮𝐧𝐝𝐞𝐟𝐲 𝐜𝐡𝐞𝐜𝐤𝐞𝐫</a></strong></h4>
                     <a  
 					style="width:140px;"
 					></a>
