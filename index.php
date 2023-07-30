@@ -300,7 +300,7 @@ if(isset($_POST['but_logout'])){
 
 $(document).ready(function(){
 
-Swal.fire({ title: "welcome floxxy", text: "remember dont leak and if there are any glitch dm me", icon: "warning", confirmButtonText: "OK", buttonsStyling: false, confirmButtonClass: 'btn btn-primary'});
+Swal.fire({ title: "𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒇𝒍𝒐𝒙𝒙𝒚", text: "do not leak for glitch dm me", icon: "warning", confirmButtonText: "OK", buttonsStyling: false, confirmButtonClass: 'btn btn-primary'});
   
 $('.show-charge').click(function(){
 var type = $('.show-charge').attr('type');
@@ -347,12 +347,12 @@ $('.show-dies').attr('type', 'show');
 }});
 
 $('.btn-trash').click(function(){
-	Swal.fire({title: 'REMOVED DEAD', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+	Swal.fire({title: 'sad dead removed', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 $('#lista_reprovadas').text('');
 });
 
 $('.btn-copy1').click(function(){
-	Swal.fire({title: 'COPIED CHARGED', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+	Swal.fire({title: 'charged cards copied', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 var lista_charge = document.getElementById('lista_charge').innerText;
 var textarea = document.createElement("textarea");
 textarea.value = lista_charge;
@@ -362,7 +362,7 @@ document.execCommand('copy');           document.body.removeChild(textarea);
 });
 
 $('.btn-copy2').click(function(){
-	Swal.fire({title: 'COPIED CVV', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+	Swal.fire({title: 'cvv copied', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 var lista_live = document.getElementById('lista_cvvs').innerText;
 var textarea = document.createElement("textarea");
 textarea.value = lista_live;
@@ -372,7 +372,7 @@ document.execCommand('copy');           document.body.removeChild(textarea);
 });
 
 $('.btn-copy').click(function(){
-	Swal.fire({title: 'COPIED CCN', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+	Swal.fire({title: 'shitty ccn copied', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 var lista_lives = document.getElementById('lista_aprovadas').innerText;
 var textarea = document.createElement("textarea");
 textarea.value = lista_lives;
@@ -391,7 +391,7 @@ var array = lista.split('\n');
 var charge = 0, live = 0, lives = 0, dies = 0, testadas = 0, txt = '';
 
 if(!lista){
-	Swal.fire({title: 'You did not provide any cards', icon: 'error', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+	Swal.fire({title: 'provide card idiot', icon: 'error', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 	return false;
 }
 
@@ -422,7 +422,7 @@ txt += value + '\n';
 $('.form-checker').val(txt.trim());
 // ảo ma hả, đừng lấy code chứ !!
 if(total > 20000){
-  Swal.fire({title: 'Use less than 20000 cards', icon: 'warning', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+  Swal.fire({title: 'no more than 20k cards', icon: 'warning', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
   return false;
 }
 
@@ -435,19 +435,19 @@ var callBack = $.ajax({
 	url: gate + '?lista=' + data + '&tgid=' + tgid,
 	success: function(retorno){
 		if(retorno.indexOf("CHARGED") >= 0){
-		    Swal.fire({title: '+1 Charged Card', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+		    Swal.fire({title: 'Card charged ', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 			$('#lista_charge').append(retorno);
 			removelinha();
 			charge = charge +1;
 			}
 			else if(retorno.indexOf("CVV") >= 0){
-	    	 Swal.fire({title: '+1 LIVE CVV', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+	    	 Swal.fire({title: 'cvv live', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 			$('#lista_cvvs').append(retorno);
 			removelinha();
 			live = live +1;
 		    }
 			else if(retorno.indexOf("CCN") >= 0){
-			 Swal.fire({title: '+1 LIVE CCN', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
+			 Swal.fire({title: 'shitty ccn live', icon: 'success', showConfirmButton: false, toast: true, position: 'top-end', timer: 3000});
 			$('#lista_aprovadas').append(retorno);
 			removelinha();
 			lives = lives +1;
