@@ -300,7 +300,7 @@ if(isset($_POST['but_logout'])){
 
 $(document).ready(function(){
 
-Swal.fire({ title: "Warning!", text: "Join our Telegram t.me/nightchecker", icon: "warning", confirmButtonText: "OK", buttonsStyling: false, confirmButtonClass: 'btn btn-primary'});
+Swal.fire({ title: "welcome floxxy", text: "remember dont leak and if there are any glitch dm me", icon: "warning", confirmButtonText: "OK", buttonsStyling: false, confirmButtonClass: 'btn btn-primary'});
   
 $('.show-charge').click(function(){
 var type = $('.show-charge').attr('type');
