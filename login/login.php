@@ -40,7 +40,7 @@ if(isset($_POST['login'])){
           <p class="mt-2 text-white">𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒈𝒂𝒕𝒆 </p><br>
           <form method="POST" id="signup-form" class="signup-form">
             <div class="form-group">
-              <input type="text" class="btn btn-light" name="password" id="password"
+              <input type="text" class="btn btn-light" name="put the party password" id="password"
                 placeholder="Password" />
               <span toggle="put the party password" class="zmdi zmdi-eye field-icon toggle-password"></span>
             </div></br>
