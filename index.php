@@ -137,7 +137,7 @@ if(isset($_POST['but_logout'])){
   		}
 
   		.btn-bg-gradient-x:hover {
-			background-position: right center; /* change the direction of the change here */
+			background-position: left; /* change the direction of the change here */
             color: #fff;
             text-decoration: none;
   		}
@@ -170,7 +170,7 @@ if(isset($_POST['but_logout'])){
 	}
 	#myButton {
 		background-color: #29292a;
-		color: #fff;
+		color: #ffff;
 		border: none;
 		padding: 7px 26px;
 		border-radius: 5px;
