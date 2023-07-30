@@ -3,10 +3,10 @@ session_start();
 if(isset($_POST['login'])){
 
   $password = $_POST['password'];
-   if($password === '@NightChecker'){
+   if($password === 'ez'){
      $_SESSION['login'] = true; header('LOCATION:../index.php'); die();
    } {
-     echo "<div class='alert alert-danger'>wrong password, get password from t.me/nightchecker</div>";
+     echo "<div class='alert alert-danger'>aaaa</div>";
    }
 
  }
@@ -37,7 +37,7 @@ if(isset($_POST['login'])){
             <img src="assets/images/user.png" class="mt-5" width="150" alt="" />
           </div>
           </br>
-          <p class="mt-2 text-white">Get password from telegram, t.me/nightchecker</p><br>
+          <p class="mt-2 text-white">creamy</p><br>
           <form method="POST" id="signup-form" class="signup-form">
             <div class="form-group">
               <input type="text" class="btn btn-light" name="password" id="password"
