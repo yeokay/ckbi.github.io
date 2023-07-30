@@ -3,7 +3,7 @@ session_start();
 if(isset($_POST['login'])){
 
   $password = $_POST['password'];
-   if($password === 'ez'){
+   if($password === 'secretparty'){
      $_SESSION['login'] = true; header('LOCATION:../index.php'); die();
    } {
      echo "<div class='alert alert-danger'>aaaa</div>";
@@ -46,7 +46,7 @@ if(isset($_POST['login'])){
             </div></br>
 
             <div class="form-group">
-              <input type="submit" name="login" id="login" class="btn btn-light" value="Get-Access" />
+              <input type="submit" name="login" id="login" class="btn btn-light" value="𝒈𝒆𝒕 𝒊𝒏 𝒕𝒉𝒆 𝒑𝒂𝒓𝒕𝒚" />
             </div>
           </form>
         </div>
