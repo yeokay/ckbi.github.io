@@ -194,12 +194,12 @@ if(isset($_POST['but_logout'])){
 		<div class="col-md-8">
 			<div class="card" style="background-color:transparent;">
 				<div class="card-body text-center">
-					<h4 class="mb-2"><strong><a href="https://t.me/undefy">welcome</a></strong></h4>
+					<h4 class="mb-2"><strong><a href="https://t.me/balenottere">welcome</a></strong></h4>
                     <a  
 					style="width:140px;"
 					></a>
 					</h4>
-					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="XXXXXXXXXXXXXXXX|XX|XXXX|XXX" style="color:#ffffff94"></textarea>					
+					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="put cards here" style="color:#ffffff94"></textarea>					
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1ccn.php">CCN $1 USD</option>
