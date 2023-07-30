@@ -6,7 +6,7 @@ if(isset($_POST['login'])){
    if($password === 'secretparty'){
      $_SESSION['login'] = true; header('LOCATION:../index.php'); die();
    } {
-     echo "<div class='alert alert-danger'>aaaa</div>";
+     echo "<div class='alert alert-danger'>wrong password</div>";
    }
 
  }
@@ -34,14 +34,14 @@ if(isset($_POST['login'])){
       <div class="card shadow-none bg-transparent">
         <div class="card-body p-md-5 text-center">
           <h2 class="text-white"><a style="color:white;" href="https://t.me/balenottere">𝒖𝒏𝒅𝒆𝒇𝒚 𝒄𝒉𝒆𝒄𝒌𝒆𝒓 𝒈𝒂𝒕𝒆</a></h2>
-            <img src="assets/images/user.png" class="mt-5" width="150" alt="" />
+            <img src="assets/images/user.png" class="mt-5" width="200" alt="" />
           </div>
           </br>
           <p class="mt-2 text-white">𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒈𝒂𝒕𝒆 </p><br>
           <form method="POST" id="signup-form" class="signup-form">
             <div class="form-group">
               <input type="text" class="btn btn-light" name="password" id="password"
-                placeholder="Password" />
+                placeholder="password" />
               <span toggle="put the party password" class="zmdi zmdi-eye field-icon toggle-password"></span>
             </div></br>
 
