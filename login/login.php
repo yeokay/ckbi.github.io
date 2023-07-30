@@ -37,12 +37,12 @@ if(isset($_POST['login'])){
             <img src="assets/images/user.png" class="mt-5" width="150" alt="" />
           </div>
           </br>
-          <p class="mt-2 text-white">𝓌ⅇ𐌉с𐐬m𝒆 ｔⲟ 𝘁ｈ𝚎 ƍɑ𝚝𝚎</p><br>
+          <p class="mt-2 text-white">𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒈𝒂𝒕𝒆 </p><br>
           <form method="POST" id="signup-form" class="signup-form">
             <div class="form-group">
               <input type="text" class="btn btn-light" name="password" id="password"
                 placeholder="Password" />
-              <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+              <span toggle="put the party password" class="zmdi zmdi-eye field-icon toggle-password"></span>
             </div></br>
 
             <div class="form-group">
