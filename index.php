@@ -199,7 +199,7 @@ if(isset($_POST['but_logout'])){
 					style="width:140px;"
 					></a>
 					</h4>
-					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="cards here XXXXXXXXXXXXXX|XX|XXXX " style="color:#ffffff94"></textarea>					
+					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="𝗰𝗮𝗿𝗱𝘀 𝗵𝗲𝗿𝗲 𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫|𝗫𝗫|𝗫𝗫𝗫𝗫 " style="color:#ffffff94"></textarea>					
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1ccn.php">𝒄𝒄𝒏 𝟏$ (usd)</option>
