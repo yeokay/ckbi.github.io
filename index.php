@@ -211,7 +211,7 @@ if(isset($_POST['but_logout'])){
 	<br>										
 					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>𝒄𝒉𝒌 </button>
 					<button class="btn btn-stop  btn-bg-gradient-x text-white" style="width: 45%; float: right;" disabled><i class="fa fa-stop" style="margin-right: 3px;"></i>𝒔𝒕𝒐𝒑</button>
-					<span class="badge badge-dark" id="datetime">01/02/2022</span>   •   <span class="badge badge-dark" id="timenow">12:00:00 AM</span>
+					<span class="badge badge-dark" id="datetime">01/02/2022</span>   X   <span class="badge badge-dark" id="timenow">12:00:00 AM</span>
 
 
 				</div>
