@@ -153,17 +153,17 @@ elseif(strpos($result2, "generic_decline" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sad decline</span><br>';
 }
 elseif(strpos($result2, "insufficient_funds" )) {
-    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: poor lil bro</span><br>';
+    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: bro is poor</span><br>';
 }
 
 elseif(strpos($result2, "fraudulent" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result:scammer</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br> they think im a scammer</span><br>';
 }
 elseif(strpos($resul3, "do_not_honor" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: DO NOT HONOR</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: tf is that</span><br>';
     }
 elseif(strpos($resul2, "do_not_honor" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: DO NOT HONOR</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: tf is that</span><br>';
 }
 elseif(strpos($result,"fraudulent")){
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: FRAUDULENT</span><br>';
@@ -320,10 +320,10 @@ elseif(strpos($result2, "fraudulent" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: FRAUDULENT</span><br>';
 }
 elseif(strpos($result1, "testmode_charges_only" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: SK KEY DEAD OR INVALID</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sk ded or invalid</span><br>';
 }
 elseif(strpos($result1, "api_key_expired" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: SK KEY REVOKED</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sk ded</span><br>';
 }
 elseif(strpos($result1, "parameter_invalid_empty" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: ENTER CC TO CHECK</span><br>';
