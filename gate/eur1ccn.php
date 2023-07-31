@@ -142,7 +142,7 @@ if(strpos($result2, '"seller_message": "Payment complete."' )) {
     echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.' 𝔠𝔥𝔞𝔯𝔤𝔢𝔡 𝔟𝔶 @balenottere <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
 }
 elseif(strpos($result2,'"cvc_check": "pass"')){
-    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: CVV LIVE</span><br>';
+    echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: 𝗰𝘃𝘃 𝗹𝗶𝘃𝗲</span><br>';
 }
 
 
@@ -160,10 +160,10 @@ elseif(strpos($result2, "fraudulent" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: they think im a scammer</span><br>';
 }
 elseif(strpos($resul3, "do_not_honor" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: DO NOT HONOR</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: tf is that</span><br>';
     }
 elseif(strpos($resul2, "do_not_honor" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: DO NOT HONOR</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: tf is that</span><br>';
 }
 elseif(strpos($result,"fraudulent")){
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: FRAUDULENT</span><br>';
@@ -320,10 +320,10 @@ elseif(strpos($result2, "fraudulent" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: FRAUDULENT</span><br>';
 }
 elseif(strpos($result1, "testmode_charges_only" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: SK KEY DEAD OR INVALID</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sk ded or invalid</span><br>';
 }
 elseif(strpos($result1, "api_key_expired" )) {
-    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: SK KEY REVOKED</span><br>';
+    echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: sk ded</span><br>';
 }
 elseif(strpos($result1, "parameter_invalid_empty" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: ENTER CC TO CHECK</span><br>';
@@ -332,7 +332,7 @@ elseif(strpos($result1, "card_not_supported" )) {
     echo 'DEAD</span>  </span>CC:  '.$lista.'</span>  <br>Result: CARD NOT SUPPORTED</span><br>';
 }
 else {
-    echo 'DEAD</span> CC:  '.$lista.'</span>  <br>Result: INCREASE AMOUNT OR TRY ANOTHER CARD</span><br>';
+    echo 'DEAD</span> CC:  '.$lista.'</span>  <br>Result: increase that fkin amount (ded)</span><br>';
    
    
       
