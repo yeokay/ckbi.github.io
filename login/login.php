@@ -17,7 +17,7 @@ if(isset($_POST['login'])){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>𝐮𝐧𝐝𝐞𝐟𝐲 𝐜𝐡𝐞𝐜𝐤𝐞𝐫</title>
+  <title>𝐩𝐚𝐫𝐭𝐲 :)</title>
   <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -33,7 +33,7 @@ if(isset($_POST['login'])){
     <div class="authentication-lock-screen d-flex align-items-center justify-content-center">
       <div class="card shadow-none bg-transparent">
         <div class="card-body p-md-5 text-center">
-          <h2 class="text-white"><a style="color:white;" href="https://t.me/balenottere">𝒖𝒏𝒅𝒆𝒇𝒚 𝒄𝒉𝒆𝒄𝒌𝒆𝒓 𝒈𝒂𝒕𝒆</a></h2>
+          <h2 class="text-white"><a style="color:white;" href="https://t.me/balenottere">𝒐𝒏𝒍𝒚 𝒈𝒐𝒅𝒔 𝒌𝒏𝒐𝒘 𝒘𝒉𝒂𝒕 𝒊𝒔 𝒃𝒆𝒉𝒊𝒏𝒅 𝒉𝒆𝒓𝒆</a></h2>
             <img src="assets/images/user.png" class="mt-5" width="200" alt="" />
           </div>
           </br>
