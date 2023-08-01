@@ -204,7 +204,7 @@ if(isset($_POST['but_logout'])){
 							  <option </option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1ccn.php">𝒄𝒄𝒏 𝟏$ (usd)</option>
 				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd10ccn.php">𝒄𝒄𝒏 𝟏𝟎$ (usd)</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur1ccn.php">𝒄𝒄𝒏 𝟏€</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur1ccn.php">𝒄𝒄𝒏 0.5$</option>
 				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur10ccn.php">𝒄𝒄𝒏 𝟏𝟎€</option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
 </select>
