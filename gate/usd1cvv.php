@@ -33,8 +33,7 @@ if(empty($amt)) {
 	$amt = '1';
 	$chr = $amt * 100;
 }
-$sk = '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
-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
+$sk = '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
 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
 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';
 
