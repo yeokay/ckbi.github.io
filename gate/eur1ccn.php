@@ -33,7 +33,7 @@ if(empty($amt)) {
 	$amt = '0.5';
 	$chr = $amt * 100;
 }
-$sk = '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
+$sk = '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
 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
 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';
 
