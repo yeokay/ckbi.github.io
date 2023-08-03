@@ -300,7 +300,7 @@ if(isset($_POST['but_logout'])){
 
 $(document).ready(function(){
 
-Swal.fire({ title: "𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒇𝒍𝒐𝒙𝒙𝒚", text: "do not leak for glitch dm me", icon: "warning", confirmButtonText: "OK", buttonsStyling: false, confirmButtonClass: 'btn btn-primary'});
+Swal.fire({ title: "𝒘𝒆𝒍𝒄𝒐𝒎𝒆", text: "do not leak for glitch dm me", icon: "warning", confirmButtonText: "OK", buttonsStyling: false, confirmButtonClass: 'btn btn-primary'});
   
 $('.show-charge').click(function(){
 var type = $('.show-charge').attr('type');
