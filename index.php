@@ -202,11 +202,11 @@ if(isset($_POST['but_logout'])){
 					<textarea rows="8" class="form-control text-center form-checker mb-2" placeholder="𝗰𝗮𝗿𝗱𝘀 𝗵𝗲𝗿𝗲 𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫𝗫|𝗫𝗫|𝗫𝗫𝗫𝗫 " style="color:#ffffff94"></textarea>					
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
-                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1ccn.php">𝒄𝒄𝒏 𝟏$ (usd)</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd10ccn.php">𝒄𝒄𝒏 𝟏𝟎$ (usd)</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur1ccn.php">𝒄𝒄𝒏 0.5$</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/eur10ccn.php">𝒄𝒄𝒏 𝟏𝟎€</option>
-                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:white" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
+                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd1ccn.php">𝒄𝒄𝒏 𝟏$ (usd)</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd10ccn.php">𝒄𝒄𝒏 𝟏𝟎$ (usd)</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/eur1ccn.php">𝒄𝒄𝒏 0.5$</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/eur10ccn.php">𝒄𝒄𝒏 𝟏𝟎€</option>
+                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
 </select>
 	<br>										
 					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>𝒄𝒉𝒌 </button>
