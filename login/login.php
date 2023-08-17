@@ -1,16 +1,4 @@
-<?php
-session_start();
-if(isset($_POST['login'])){
 
-  $password = $_POST['password'];
-   if($password === 'a'){
-     $_SESSION['login'] = true; header('LOCATION:../index.php'); die();
-   } {
-     echo "<div class='alert alert-danger'>wrong password</div>";
-   }
-
- }
-?>
 <!DOCTYPE html>
 <html lang="en">
 
