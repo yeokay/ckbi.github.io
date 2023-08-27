@@ -29,7 +29,7 @@ function multiexplode($seperator, $string){
 //$sk = $_GET['sec'];
 $sk = $_GET['sec'];
 if(empty($sk)) {
-	$sk = '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';
+	$sk = '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';
 	
 
 $lista = $_GET['lista'];
@@ -44,7 +44,7 @@ if (strlen($ano) == 2) $ano = "20$ano";
 
 $amt = $_GET['cst'];
 if(empty($amt)) {
-	$amt = '0.8';
+	$amt = '2';
 	$chr = $amt * 100;
 }
 //============[AUTO CARRENCY]================//
