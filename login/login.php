@@ -3,7 +3,7 @@ session_start();
 if(isset($_POST['login'])){
 
   $password = $_POST['password'];
-   if($password === 'esex'){
+   if($password === '£/RY(£Y=G$(Y£UH$(YU£BG$R£$B"(N(£BUY"N=$)Y(£"NBG£()="H/)$/£"'){
      $_SESSION['login'] = true; header('LOCATION:../index.php'); die();
    } {
      echo "<div class='alert alert-danger'>wrong password</div>";
