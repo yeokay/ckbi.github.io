@@ -209,8 +209,7 @@ if(isset($_POST['but_logout'])){
 							  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/ccn100usd.php">𝒄𝒄𝒏 𝟏𝟎0$</option>
 							  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/ccn50usd.php">𝒄𝒄𝒏 50$</option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
-							  							  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/nw.php"></option>
-</select>
+							  							 
 	<br>										
 					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>𝒄𝒉𝒌 </button>
 					<button class="btn btn-stop  btn-bg-gradient-x text-white" style="width: 45%; float: right;" disabled><i class="fa fa-stop" style="margin-right: 3px;"></i>𝒔𝒕𝒐𝒑</button>
