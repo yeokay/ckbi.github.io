@@ -388,12 +388,12 @@ else {
 }
 //=======================[RESPONSES END]==============================//
 
-//echo $result1;
-//echo $result2;
-//echo $result3;
-//echo $result4;
-//echo $result5;
-//echo $result6;
+/echo $result1;
+/echo $result2;
+/echo $result3;
+/echo $result4;
+/echo $result5;
+/echo $result6;
 curl_close($ch);
 ob_flush();
 ?>
